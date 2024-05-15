@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'SUSY';
+    src: url(fonts/good\ times\ rg.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(68.15deg, #000000 , #7D7E75, #B0B2B8);
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.susy{
+    width: 75px;
+}
+header nav{
+    display: flex;
+    gap: 35px;
+}
+header a{
+    color: white;
+}
+hr.primeiro{
+   border: none; 
+   border-top: 1px solid rgba(255, 255, 255, 0.555);
+}
+a:hover{
+    text-decoration: underline;
+}
+section h1{
+    font-family: 'SUSY';
+    font-size: 3em;
+    color: white;
+    padding-bottom: 25px;
+}
+section p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+}
+section a{
+    display: block;
+    background-color: #7D7E75;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+.robot{
+    width: 300px;
+    padding-top: 25px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+section.container article{
+    padding-top: 85px;
+    padding-left: 150px;
+}
+section.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+hr.segundo{
+    border: none; 
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    width: 25%;
+    margin: auto;
+}
+section.container2 > article{
+    text-align: center;
+    padding-bottom: 30px;
+}
+section.container2 > article > h3{
+    padding-top: 45px;
+    padding-bottom: 35px;
+    color: white;
+}
+section.container2 > article > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 15px;
+}
+span{
+    color: #1b1919;
+    font-weight: bolder;
+}
+hr.terceiro{
+    border: none; 
+   border-top: 1px solid rgba(255, 255, 255, 0.555);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+footer > h1{
+    text-align: center;
+}
