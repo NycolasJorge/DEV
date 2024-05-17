@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical System</title>
+    <link rel="shortcut icon" href="img/icon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="celular.css" media="screen and (min-width : 555px) and (max-width : 768px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="pc.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
+</head>
+<body>
+    <main>
+        <section class="imagem">
+            <picture>
+                <source class="medical" id="medical" media="(max-width: 768px)" srcset="img/Medical.png" type="image/png">
+                <img src="img/blood-research-animate.svg">
+            </picture>
+        </section>
+
+        <section class="formulario">
+
+            <form action="#" class="form">
+                
+                <header class="cabeca">
+                    <h1>Cadastre-se</h1>
+                    <button><a href="#">Entrar</a></button>
+                </header>
+                
+
+                <fieldset class="grupo-dados">
+                    <div class="grupo-perguntas">
+                        <label for="nome">Primeiro nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Seu primeiro nome" required>
+                    </div>
+                    <div class="grupo-perguntas">
+                        <label for="sobrenome">Segundo nome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Seu sobrenome"  required>
+                    </div>
+                    <div class="grupo-perguntas">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="grupo-perguntas">
+                        <label for="celular">Celular:</label>
+                        <input type="tel" name="celular" id="celular" placeholder="(xx) xxxx-xxx" required>
+                    </div>
+                    <div class="grupo-perguntas">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" placeholder="Coloque sua senha" required>
+                    </div>
+                    <div class="grupo-perguntas">
+                        <label for="confirmarsenha">Confirme sua senha:</label>
+                        <input type="password" name="confirmarsenha" id="confirmarsenha" placeholder="Confirmar Senha" required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="genero">
+                    <h3>Gênero</h3>
+                    <div class="grupo-sexo">
+                        <div class="grupo-radio">
+                            <input type="radio" name="sexo" id="feminino">
+                            <label for="feminino">Feminíno</label>
+                        </div>
+                        <div class="grupo-radio">
+                            <input type="radio" name="sexo" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="grupo-radio">
+                            <input type="radio" name="sexo" id="outros">
+                            <label for="outros">Outros</label>
+                        </div>
+                        <div class="grupo-radio">
+                            <input type="radio" name="sexo" id="alternativo">
+                            <label for="alternativo">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Continuar" class="entrar">
+
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>

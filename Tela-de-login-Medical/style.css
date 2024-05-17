@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor1: #8EA4ED;
+    --cor2: #4A65BA;
+    --cor3: #3363FF;
+    --cor4: #001454;
+    --cor5: #0A1128;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter' , sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.21);
+}
+
+.imagem {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7d23e;
+    padding: 1rem;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.imagem picture, img {
+    width: 100%;
+}
+
+.formulario {
+    background-color: white;
+    width: 50%;
+    padding: 25px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.cabeca h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.cabeca h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: var(--cor3);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.cabeca button {
+    background-color: var(--cor3);
+    width: 6rem;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
+
+.cabeca button a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.grupo-dados {
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.grupo-perguntas {
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    margin-bottom: 1.5rem;
+    margin-left: 10px;
+}
+
+.grupo-perguntas input {
+    border: none;
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.308);
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    color: black;
+    font-family: 600;
+}
+
+.grupo-perguntas input:hover {
+    background-color: rgb(243, 238, 238);
+}
+
+.grupo-perguntas input:focus-visible {
+    outline: 1px solid var(--cor3);
+}
+
+.grupo-perguntas label {
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+ 
+.genero {
+    border: none;
+}
+
+.genero h3 {
+    font-size: 16px;
+    margin-bottom: 17px;
+    font-weight: 550;
+    color: rgb(97, 97, 97);
+}
+
+.grupo-sexo {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grupo-sexo label {
+    color: rgb(97, 97, 97);
+    font-weight: 550;
+}
+
+.entrar {
+    background-color: var(--cor3);
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 520;
+}
+
+.entrar:hover {
+    background-color: #436efd
+}
+
+@media screen and (min-width: 1200px) {
+   
+    main {
+        width: 95%;
+        height: 80vh;
+    }
+    
+    .imagem {
+        width: 50%;
+    }
+    
+    .grupo-perguntas {
+        width: 15rem;
+    }
+}
