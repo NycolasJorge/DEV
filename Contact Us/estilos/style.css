@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #B3E9C7;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+main h1 {
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+}
+.group-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.group-form label {
+    margin-bottom: 8px;
+}
+
+.group-form input {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.group-query {
+    margin-bottom: 20px;
+}
+
+.group-query p{
+    margin-bottom: 15px;
+}
+
+.group-type {
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.mensage {
+    display: flex;
+    flex-direction: column;
+}
+
+.mensage label {
+    margin-bottom: 10px;
+}
+
+.mensage textarea {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.grupo2 {
+    margin-bottom: 20px;
+}
+
+.botao {
+    background-color: #8367C7;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #7251c7;
+}

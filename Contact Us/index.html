@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="group-form">
+                <label for="first">First Name</label>
+                <input type="text" name="first" id="first" required>
+            </div>
+            <div class="group-form">
+                <label for="last">Last Name</label>
+                <input type="text" name="last" id="last" required>
+            </div>
+            <div class="group-form">
+                <label for="email">Email Adress</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="group-query">
+                <p>Query Type</p>
+                <div class="group-type">
+                    <input type="radio" name="query" id="general">
+                    <label for="general">General Enquiry</label>
+                </div>
+                <div class="group-type">
+                    <input type="radio" name="query" id="support">
+                    <label for="support">Support Request</label>
+                </div>
+            </div>
+            <div class="mensage">
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
+            </div>
+
+           
+            <div class="grupo2">
+                <input type="radio" name="consent" id="consent">
+                <label for="consent">I consent to being contacted by the team</label>
+            </div>
+           
+
+            <input class="botao" type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
