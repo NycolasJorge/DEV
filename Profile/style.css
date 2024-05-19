@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    position: absolute;
+    background-color: rgb(39, 39, 39);
+    height: 90vh;
+    width: 70%;
+    inset: 0;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main img {
+    width: 120px;
+    margin-bottom: -27px;
+}
+
+main h1 {
+    color: rgb(221, 220, 220);
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+main h3 {
+    color: rgb(176, 248, 68);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main p {
+    color: rgb(221, 220, 220);
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+main input {
+    width: 80%;
+    padding: 12px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main input:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.exclusivo {
+    margin-bottom: 15px;
+}
