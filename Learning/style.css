@@ -18,8 +18,8 @@ main {
     inset: 0;
     margin: auto;
     background-color: white;
-    width: 66%;
-    height: 70vh;
+    width: 70%;
+    height: 65vh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
