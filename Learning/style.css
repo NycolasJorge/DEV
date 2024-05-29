@@ -54,6 +54,10 @@ main h1 {
     font-weight: 800;
 }
 
+main h1:hover {
+    color: rgb(244, 208, 78);
+}
+
 main p {
     text-align: justify;
     color: gray;
